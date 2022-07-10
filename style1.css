@@ -1,0 +1,68 @@
+
+    body {
+
+      margin: 0px;
+      padding: 0px;
+      background: url('../image/dasgboard.png');
+      color: rgb(27, 17, 17);
+      font-family: 'Charm';
+      font-size: 22px;
+} 
+.left h1{
+  color: rgb(59, 45, 142);
+  padding-left: 26rem;
+  margin-top: -8%;
+}
+.mid {
+        
+        color: rgb(24, 13, 13);
+        font-size: 18px; 
+        text-align:center;
+        
+        
+         }
+.left img {
+        width:7em;
+        margin-top: 2rem;
+        margin-left:17rem;
+
+        
+ }
+
+.mb-3{
+  position: absolute;
+  text-align: center;
+  left: 400px;
+  top: 200px;
+ }
+.row img {
+  height: 200px;
+  width : 200px;
+  margin-left: 3rem;
+  margin-top: -7rem;
+}
+.col-md-2 button {
+  margin-top: 1rem;
+  margin-left: 5rem;
+  color: rgb(236, 236, 241);
+}
+.vl {
+  border-left: 6px solid rgb(175, 177, 218);
+  height: 340px;
+  margin-left: 17rem;
+  margin-top: -20rem;
+}
+#container .btn{
+   border: 1px solid rgb(85, 120, 204);
+    border-radius: 7px;
+    background: rgb(44, 100, 177);
+    cursor: pointer;
+    width: 10em;
+    height: 1.2rem;
+}
+#container .btn:hover {
+  background-color: rgb(203, 239, 247);
+    color: rgb(89, 94, 177);
+    font-weight: bold;
+}
+    

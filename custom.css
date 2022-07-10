@@ -1,0 +1,99 @@
+body {
+   
+    color: #999;
+    
+    font-family: 'Roboto',sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding: 20px;  font-size: 3.0em;
+}
+
+li a {
+    text-decoration:none; color : #0b6b72;
+    cursor:pointer;
+    text-align: center;
+    
+}
+
+
+nav {
+  width : 300px; 
+  background: #cee9f8;
+  margin : 20px auto; 
+  opacity: 0.9;
+}
+
+span {
+  padding : 70px;
+  color : rgb(48, 22, 121);
+  font-size : 1.5em;
+  font-family : "Open Sans", sans-serif;
+  
+  
+  
+}
+
+span::after {
+  float: right;
+  right: 10%;
+  
+}
+.slide {
+  clear:both;
+  width:50%;
+  height:0px;
+  overflow: hidden;
+  text-align: center;
+  transition: height .1s ease;
+}
+
+.slide li {
+    padding : 8px;
+    height: 0px;
+    margin-top: 3ex;
+}
+
+#touch {
+    position: absolute; opacity: 0; height: 0px;
+    
+}    
+
+#touch:checked + .slide {
+    height: 150px;
+    width: 200px;
+}
+
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+}
